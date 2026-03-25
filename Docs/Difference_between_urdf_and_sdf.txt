@@ -1,0 +1,22 @@
+<robot></robot> --> <model></model>
+
+
+Difference between urdf and sdf
+include
+mesh
+parent
+child
+axis
+origin --> pose 
+
+inertia
+
+converted file:
+
+gr_p247
+gr_ros_kit_v3
+scout_mini
+helios_16
+_d435
+
+phidget_spatial
