@@ -1,0 +1,42 @@
+# Source
+alias sros='source /opt/ros/humble/setup.sh && source /ros2_ws/install/setup.bash '
+
+# Build
+alias cb="colcon build"
+alias cbsi='colcon build --symlink-install '
+alias cbsips='colcon build --symlink-install --packages-select '
+alias cbsice='colcon build --symlink-install --continue-on-error '
+
+# Clean
+alias rbil='rm -rf build install log '
+
+# Run
+alias rr='ros2 run '
+alias rl='ros2 launch '
+
+# Topic
+alias rtl='ros2 topic list '
+alias rte='ros2 topic echo '
+alias rtp='ros2 topic pub '
+
+# Node
+alias rnl='ros2 node list '
+alias rni='ros2 node info '
+
+# Service
+alias rsl='ros2 service list '
+alias rsc='ros2 service call '
+
+# Parameter
+alias rpl='ros2 param list '
+alias rpg='ros2 param get '
+alias rps='ros2 param set '
+
+# Bag
+alias rbra='ros2 bag record -a '
+alias rbp='ros2 bag play '
+
+# TF
+alias rtfvf='ros2 run tf2_tools view_frames '
+alias rtef='ros2 topic echo /tf '
+
