@@ -1,1 +1,7 @@
 .git
+
+build
+install
+log
+
+.env
