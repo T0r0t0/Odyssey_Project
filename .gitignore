@@ -1,1 +1,9 @@
 .git
+
+.env
+Dockerfile
+docker-compose.yaml
+
+build
+install
+log
