@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  gz_test:
+    container_name: ros-fortress-scout
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        UID: ${UID}
+        GID: ${GID}
+        USER: ${USER}
+        GROUP: ${GROUP}
+
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM
+      - ROBOT_ID
+      - LIDAR_TYPE
+      - CAMERA_TYPE
+      - ROBOT_TYPE
+      - START_CAMERA
+      - RVIZ
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./ros2_ws:/ros2_ws  # Lier le dossier local "./app" à "/app" dans le conteneur
+    stdin_open: true  # Garder le conteneur ouvert pour le terminal
+    tty: true         # Activer le mode terminalversion: '3.8'
+      # Activer le mode terminal
+   # command: >
+    #  bash -c "source /opt/ros/humble/setup.bash" >> /home/${USER}/.bashrc

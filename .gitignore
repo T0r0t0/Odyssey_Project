@@ -1,4 +1,7 @@
 .git
+
 build
-log
 install
+log
+
+.env
