@@ -13,6 +13,11 @@ option:
       status: true
       content:
         apt:
+        - ros-humble-gazebo-ros-pkgs
+        - ros-humble-gazebo-ros
+        - ignition-fortress
+        - ros-humble-ros-ign-interfaces
+        - ros-humble-ros-ign-bridge
         - ros-humble-navigation2
         - ros-humble-nav2-bringup
         - nano
@@ -20,8 +25,17 @@ option:
         - git
         - tree
         pip:
-        - none
+        - null
     environment:
       status: true
-      content: 'ROBOT_ID=9 LIDAR_TYPE=RSHELIOS CAMERA_TYPE=D435 ROBOT_TYPE=SCOUT_MINI
-        START_CAMERA=1 RVIZ=1 '
+      content: 'ROBOT_ID=9
+
+        LIDAR_TYPE=RSHELIOS
+
+        CAMERA_TYPE=D435
+
+        ROBOT_TYPE=SCOUT_MINI
+
+        START_CAMERA=1
+
+        RVIZ=1'
