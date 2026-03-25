@@ -1,6 +1,6 @@
-[submodule "src/odyssey"]
-	path = src/odyssey
+[submodule "ros2_ws/src/odyssey"]
+	path = ros2_ws/src/odyssey
 	url = git@github.com:T0r0t0/Odyssey_pkg.git
-[submodule "src/gr_description"]
-	path = src/gr_description
+[submodule "ros2_ws/src/gr_description"]
+	path = ros2_ws/src/gr_description
 	url = git@github.com:T0r0t0/gr_description_ros2_R-D_kit.git
