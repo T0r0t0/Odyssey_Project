@@ -65,11 +65,11 @@ Install Docker and docker compose
 1. Clone the git repository
 
 ```bash
-git clone --branch gazebo-fortress https://github.com/T0r0t0/Odyssey.git
+git clone --branch docker_odyssey git@github.com:T0r0t0/Odyssey_Project.git
 ```
 
 ```bash
-cd Odyssey
+cd Odyssey_Project
 ```
 
 2. Setup Environment variable:
