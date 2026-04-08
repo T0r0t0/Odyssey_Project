@@ -17,7 +17,6 @@ A plug in play source code for Génération Robot Kit R&amp;D ROS2 mounting Scou
 ## Dependencies
 
 - git
-
 - make
 - cmake
 - build-essential
@@ -88,5 +87,5 @@ This operation have to be done every time you connect to the container.
 When you have already build and source install/setup.bash, you can launch rviz2 and Gazebo simulation by using the following command:
 
 ```bash
-ros2 launch odyssey main.launch.py sim:=True
+ros2 launch odyssey main.launch.py use_sim:=True
 ```
