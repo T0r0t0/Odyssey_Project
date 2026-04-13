@@ -21,7 +21,7 @@ Containerised version.
 You can download the source directly from this branch "main", by cloning the repository:
 
 ```bash
-git clone --branch docker_odyssey git@github.com:T0r0t0/gr_description_ros2_R-D_kit.git
+git clone --branch ros_env_odyssey git@github.com:T0r0t0/gr_description_ros2_R-D_kit.git
 ```
 
 Warning: this source code was developed on ROS Humble. The last ubuntu version for ROS Humble is Ubuntu 22.04.
